@@ -4,10 +4,12 @@ block content
   h1= title
   div#chat
     ul#messages
+      li ceva
     form(action="")
       input#m(autocomplete="off")
       button Send
   script(src="/javascripts/lib/socket.io.js")
   script(src="/javascripts/lib/jquery.js")
   script var socket = io();
-  script(src="/javascripts/form.js")
+  script(src="/javascripts/submit_message.js")
+  script(src="/javascripts/receive_message.js")
